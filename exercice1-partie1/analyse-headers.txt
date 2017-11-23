@@ -1,0 +1,12 @@
+la requete http : http://localhost/Exercices/exercice1-partie1/
+
+Il trouve le fichier index tout seul dans le dossier.
+
+La méthode utilisé est GET pour récupérer des données.
+Status code : 304 : apparement ça veut dire qu'il y a eu un GET avec condition et que les données renvoyées sont comme l'originale : la condition était inutile donc.
+
+En ce qui concerne la réponse,
+
+On a l'heure et la date de la réponse.
+Le Etag est en lien avec la condition (inconnue soit dit en passant)
+On sait que la réponse pointe vers localhost
