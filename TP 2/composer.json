@@ -1,5 +1,6 @@
 {
     "require": {
-        "Monolog/monolog": "^1.23"
+        "Monolog/monolog": "^1.23",
+        "alexantr/image-resize": "~1.0"
     }
 }

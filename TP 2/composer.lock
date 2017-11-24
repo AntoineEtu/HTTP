@@ -4,8 +4,53 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "66a775371804f5d4839fa4d7a2e12b04",
+    "content-hash": "80ec389aad330be6f7fcb237039315a0",
     "packages": [
+        {
+            "name": "alexantr/image-resize",
+            "version": "v1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alexantr/image-resize.git",
+                "reference": "182fc2985a2b5ce139bdd4c80a8a1bb1171ef047"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alexantr/image-resize/zipball/182fc2985a2b5ce139bdd4c80a8a1bb1171ef047",
+                "reference": "182fc2985a2b5ce139bdd4c80a8a1bb1171ef047",
+                "shasum": ""
+            },
+            "require": {
+                "ext-fileinfo": "*",
+                "ext-gd": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Alexantr\\ImageResize\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alex Yashkin",
+                    "email": "alex@yashkin.by",
+                    "homepage": "http://yashkin.by/"
+                }
+            ],
+            "description": "Image resizing library",
+            "keywords": [
+                "gd",
+                "image",
+                "thumbnail"
+            ],
+            "time": "2017-03-02T08:53:14+00:00"
+        },
         {
             "name": "monolog/monolog",
             "version": "1.23.0",

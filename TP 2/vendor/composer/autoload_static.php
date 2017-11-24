@@ -15,6 +15,10 @@ class ComposerStaticInit43961de787e12a1256e5550838739fda
         array (
             'Monolog\\' => 8,
         ),
+        'A' => 
+        array (
+            'Alexantr\\ImageResize\\' => 21,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -25,6 +29,10 @@ class ComposerStaticInit43961de787e12a1256e5550838739fda
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
+        ),
+        'Alexantr\\ImageResize\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/alexantr/image-resize/src',
         ),
     );
 

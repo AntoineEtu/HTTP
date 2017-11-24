@@ -127,5 +127,52 @@
             "logging",
             "psr-3"
         ]
+    },
+    {
+        "name": "alexantr/image-resize",
+        "version": "v1.0.6",
+        "version_normalized": "1.0.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/alexantr/image-resize.git",
+            "reference": "182fc2985a2b5ce139bdd4c80a8a1bb1171ef047"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/alexantr/image-resize/zipball/182fc2985a2b5ce139bdd4c80a8a1bb1171ef047",
+            "reference": "182fc2985a2b5ce139bdd4c80a8a1bb1171ef047",
+            "shasum": ""
+        },
+        "require": {
+            "ext-fileinfo": "*",
+            "ext-gd": "*",
+            "ext-mbstring": "*",
+            "php": ">=5.3.0"
+        },
+        "time": "2017-03-02T08:53:14+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Alexantr\\ImageResize\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Alex Yashkin",
+                "email": "alex@yashkin.by",
+                "homepage": "http://yashkin.by/"
+            }
+        ],
+        "description": "Image resizing library",
+        "keywords": [
+            "gd",
+            "image",
+            "thumbnail"
+        ]
     }
 ]
